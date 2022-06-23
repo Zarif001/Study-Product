@@ -40,17 +40,16 @@ try {
 
     // Slide
 
+    const strSliderParent = document.querySelector('.main__strategies-items'),
+        strSliderWidth = document.querySelector('.main__strategies-item')
+
+    let strSlider = document.querySelectorAll('.main__strategies-item'),
+        strDot = document.querySelectorAll('.main__strategies-dot'),
+        index = 0,
+        dotIndex = 0,
+        width = strSliderWidth.clientWidth
+        
     function nextSlide() {
-        const strSliderParent = document.querySelector('.main__strategies-items'),
-            strSliderWidth = document.querySelector('.main__strategies-item')
-
-        let strSlider = document.querySelectorAll('.main__strategies-item'),
-            strDot = document.querySelectorAll('.main__strategies-dot'),
-            index = 0,
-            dotIndex = 0,
-            width = strSliderWidth.clientWidth
-
-
         if (index < ((strSlider.length - 3) * width)) {
             index += width
             dotIndex++

@@ -1,6 +1,6 @@
 
 let num = 1
-``
+
 function numCircle() {
 
     const numSlider = document.querySelectorAll('.main__strategies-item'),
@@ -31,6 +31,10 @@ function numCircle() {
         num = 1
     }
 }
-setInterval(() => {
-    numCircle()
-}, 2000);
+const screen = window.matchMedia("(max-width:1040px)");
+
+if (screen.matches) {
+    setInterval(() => {
+        numCircle()
+    }, 3000);
+}
