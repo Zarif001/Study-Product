@@ -1,0 +1,92 @@
+.footer {
+    margin-top: 150px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        &-product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+
+        &-title {
+            font-size: 30px;
+            line-height: 28px;
+            color: $gray;
+            font-family: 'Poppins-Bold';
+            margin-left: 16px;
+        }
+
+        &-img {
+            margin: 0 16px;
+        }
+
+        &-text {
+            font-size: 20px;
+            line-height: 30px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 8px;
+        }
+
+        &-link {
+            font-size: 16px;
+            line-height: 35px;
+            font-family: 'Poppins-Regular';
+            color: $blue;
+        }
+
+        &-describe {
+            max-width: 280px;
+            width: 100%;
+            font-size: 20px;
+            line-height: 30px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 34px
+        }
+
+        &-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-btn {
+            border-radius: 4px;
+            background: $green;
+            color: $white;
+            padding: 8px 15px;
+            border: none;
+            max-width: 131px;
+            width: 100%;
+            margin-top: 21px;
+            font-family: 'Poppins-Bold';
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        &-input {
+            border-radius: 4px;
+            border: 1px solid #BCD0E5;
+            max-width: 325px;
+            width: 100%;
+            color: #BCD0E5;
+            font-size: 16px;
+            line-height: 28px;
+            font-family: 'Montserrat-Medium';
+            outline: 0;
+            padding-left: 5px;
+
+        }
+        &-by {
+            font-size: 16px;
+            line-height: 30px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            text-align:  center;
+            margin-top: 40px;
+        }
+    }
+}

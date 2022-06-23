@@ -1,0 +1,575 @@
+.main {
+    margin-top: 169px;
+    // Main Content
+
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            color: $blue;
+            font-family: 'Poppins-Semibold';
+            margin-bottom: 8px;
+        }
+
+        &-title {
+            font-size: 32px;
+            line-height: 48px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 23px;
+        }
+
+        &-describtion {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 30px;
+            max-width: 486px;
+            width: 100%;
+        }
+
+        &-describe {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Semibold';
+            margin-bottom: 12px;
+        }
+
+        &-describtion:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    // Main Computer
+
+
+    &__computer {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+
+        &-text {
+            color: $blue;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Poppins-Semibold';
+            margin-bottom: 8px;
+        }
+
+        &-title {
+            font-size: 32px;
+            line-height: 48px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 23px;
+        }
+
+        &-describtion {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 30px;
+            max-width: 486px;
+            width: 100%;
+        }
+
+        &-picture {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        &-describe {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-left: 30px;
+            max-width: 362px;
+            width: 100%;
+        }
+    }
+
+    // Main Documnet 
+
+
+    &__documents {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 168px;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            color: $blue;
+            font-family: 'Poppins-Semibold';
+            margin-bottom: 8px;
+        }
+
+        &-title {
+            font-size: 32px;
+            line-height: 48px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 23px;
+        }
+
+        &-describtion {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 30px;
+            max-width: 486px;
+            width: 100%;
+        }
+
+        &-describe {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Semibold';
+            margin-bottom: 12px;
+        }
+
+        &-describtion:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    // Main Process
+
+
+    &__process {
+        background-image: url('../images/process-bg.webp');
+        margin-top: 150px;
+        background-size: cover;
+        background-position: center;
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        &-title {
+            font-size: 32px;
+            line-height: 48px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 16px;
+            margin-top: 50px;
+        }
+
+        &-text {
+            color: $blue;
+            font-size: 16px;
+            line-height: 26px;
+            font-family: 'Poppins-Medium';
+            max-width: 542px;
+            width: 100%;
+            text-align: center;
+        }
+
+        &-comments {
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &-avatar {
+            display: flex;
+            align-items: center;
+        }
+
+        &-describe,
+        &-secondDescribe {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+            border-radius: 26.5px;
+            color: $black;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 14px 24px;
+            margin-left: 16px;
+            font-family: 'Poppins-Medium';
+
+        }
+
+        &-secondDescribe {
+            margin-left: 0px;
+            margin-right: 16px;
+        }
+
+        &-button {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-btn {
+            color: $white;
+            background: $green;
+            padding: 15px 30px;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Poppins-Bold';
+            margin-top: 48px;
+            display: inline-block;
+        }
+    }
+
+    // Main Strategies
+
+
+    &__strategies {
+        margin-top: 150px;
+
+        &-title {
+            font-size: 34px;
+            line-height: 51px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 8px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 26px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 33px;
+        }
+
+        &-content {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-items {
+            max-width: 1036px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+        }
+
+        &-item {
+            max-width: 348px;
+            width: 100%;
+        }
+
+        &-about {
+            border: 1px solid $white-gray;
+            border-top: none;
+            border-radius: 0px 0px 8px 8px;
+        }
+
+        &-img {
+            display: block;
+            width: 345px;
+        }
+
+        &-name {
+            font-size: 16px;
+            line-height: 28px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 12px;
+            margin-left: 24px;
+            padding-top: 24px;
+        }
+
+        &-name span {
+            font-family: 'Poppins-Bold';
+        }
+
+        &-describe {
+            font-size: 24px;
+            line-height: 40px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 40px;
+            margin-left: 24px;
+        }
+
+        &-dots {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #EFEFEF;
+            margin-top: 64px;
+            margin-right: 10px;
+
+            &.active {
+                background: $green;
+            }
+        }
+
+    }
+
+    // Main Prices 
+
+
+    &__prices {
+        margin-top: 150px;
+
+        &-title {
+            font-size: 34px;
+            line-height: 51px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        &-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-item {
+            max-width: 323px;
+            width: 100%;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 1s ease;
+            
+            &.active {
+                background: $green;
+                p,
+                h5 {
+                    color: $white;
+                }
+
+                a {
+                    background: $white;
+                    color: $green;
+                }
+            }
+        }
+
+        &-price {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        &-caption {
+            font-size: 24px;
+            line-height: 40px;
+            font-family: 'Poppins-Bold';
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        &-describe {
+            font-size: 16px;
+            line-height: 40px;
+            color: $blue;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 16px;
+        }
+
+        &-number {
+            font-size: 76px;
+            line-height: 100px;
+            color: $green;
+            letter-spacing: 0.2px;
+            font-family: 'Poppins-Bold';
+        }
+
+        &-revenue {
+            margin-left: 8px;
+        }
+
+        &-dollar {
+            font-size: 24px;
+            line-height: 30px;
+            color: $green;
+            font-family: 'Inter-Bold';
+            letter-spacing: 0.1px;
+        }
+
+        &-year {
+            font-size: 16px;
+            line-height: 19px;
+            color: #AFAFAF;
+            font-family: 'Poppins-Regular';
+            margin-top: 4px;
+
+        }
+
+        &-describtion {
+            font-size: 16px;
+            line-height: 22px;
+            color: $blue;
+            font-family: 'Inter-Medium';
+            margin-bottom: 16px;
+        }
+
+        &-btn {
+            font-size: 18px;
+            line-height: 22px;
+            color: $white;
+            background: $green;
+            padding: 11px 19px;
+            border-radius: 8px;
+            font-family: 'Montserrat-Semibold';
+            margin-top: 22px;
+            margin-bottom: 32px;
+        }
+
+    }
+
+    // Main Clients 
+    &__clients {
+        margin-top: 150px;
+
+        &-title {
+            font-size: 34px;
+            line-height: 57px;
+            letter-spacing: 0.2px;
+            color: $blue;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 537px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        &-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-star {
+            max-width: 327px;
+            width: 100%;
+            border: 1px solid #DEDEDE;
+            border-radius: 5px;
+            padding: 24px 26px;
+        }
+
+        &-describe {
+            font-size: 16px;
+            line-height: 28px;
+            color: $white-gray;
+            font-family: 'Poppins-Regular';
+            letter-spacing: 0.2px;
+            margin: 16px 0;
+        }
+
+        &-about {
+            display: flex;
+            align-items: center;
+        }
+
+        &-caption {
+            margin-left: 14px;
+        }
+
+        &-name {
+            font-size: 16px;
+            line-height: 24px;
+            color: $green;
+            font-family: 'Poppins-Semibold';
+        }
+
+        &-job {
+            font-size: 14px;
+            line-height: 24px;
+            color: $blue;
+            font-family: 'Poppins-Medium';
+        }
+    }
+
+    // Main Last
+    &__last {
+        margin-top: 157px;
+        display: flex;
+        background: $green;
+        border-radius: 32px;
+        max-width: 968px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        &-left {
+            margin-left: 50px;
+        }
+
+        &-text {
+            font-size: 32px;
+            line-height: 48px;
+            font-family: 'Poppins-Semibold';
+            color: $white;
+            margin-bottom: 50px;
+            max-width: 510px;
+            width: 100%;
+        }
+
+        &-btn {
+            font-size: 20px;
+            line-height: 30px;
+            color: $green;
+            background: $white;
+            padding: 13px 35px 7px 33px;
+            border-radius: 8px;
+            font-family: 'Poppins-Semibold';
+
+        }
+    }
+
+}
